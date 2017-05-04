@@ -385,7 +385,8 @@ headport{
 	.header{
 
 		margin-left: 0px;
-		width: 970px;
+		width: 978px;
+		height: 100%;
 
 	}
 
@@ -422,7 +423,7 @@ headport{
 
 	.main{
 
-		width: 400px;
+		width: 600px;
         margin-left: 60px;
         padding-top: 60px
 
@@ -457,20 +458,91 @@ headport{
 
 }
 
-@media screen and (max-width: 768px){}
+@media screen and (max-width: 768px){
 
-.main{
+	.header{
 
-		width: 600px;
+		margin-left: 0px;
+		width: 734px;
+		height: 100%;
+
+	}
+
+	#about2{
+
+		float: right;
+		position: relative;
+		margin-top: 30px;
+	}
+
+	#portfolio{
+
+		float: right;
+		position: relative;
+		margin-top: 30px;
+	
+	}
+
+	#contact{
+
+		float: right;
+		padding-right: 10px;
+		margin-top: 30px;
+		position: relative;
+	}
+
+	#name{
+
+		margin-left: 20px;
+		height: 100%;
+		margin-top: 0px;
+		margin-bottom: 0px;
+
+	}
+
+
+	.main{
+
+		width: 700px;
 		height: 600px; 
-		margin-left: 60px;
+		margin-left: 20px;
         
 	}
 
 	.scrollbar{
 
+		width: 500px;
+		margin-left: 22px;
+		margin-top: 730px;
+
 	
       }
+
+     .jumbotron{
+
+		width: 100%;
+        height: 900px;
+        position: absolute;
+
+
+
+}
+
+		#p1{
+
+      	margin: 0px auto;
+      	padding-left: 0px;
+
+		
+
+      }
+
+      #image{
+
+		margin-right: 0px;
+		height: 250px;
+	}
+
 
 
 
