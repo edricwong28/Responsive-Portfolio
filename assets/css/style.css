@@ -408,6 +408,11 @@ tabswrap{
 
 	position: relative;
 	margin-left: 64px;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+    background-image: url("../images/cyberpunkSunset.png");
+    background-size: cover;
 }
 
 #trivia{
